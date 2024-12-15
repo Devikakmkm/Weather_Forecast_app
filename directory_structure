@@ -1,0 +1,14 @@
+weather-forecast-app/
+├── index.html          # Main HTML file for the application
+├── style.css           # CSS file for styling the application
+├── app.js              # JavaScript file containing application logic
+├── images/             # Folder for background images and icons
+│   ├── sunny.jpg       # Background for sunny weather
+│   ├── rainy.jpg       # Background for rainy weather
+│   ├── cloudy.jpg      # Background for cloudy weather
+│   ├── default.jpg     # Default background
+├── README.md           # Documentation for the project
+
+
+
+  
