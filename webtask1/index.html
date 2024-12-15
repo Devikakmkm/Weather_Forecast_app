@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-app">
+        <header>
+            <h1>Weather Forecast</h1>
+            <div id="city-name" class="city-name"></div>
+        </header>
+        <div class="search-bar">
+            <input type="text" id="city-input" placeholder="Enter city name...">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="history" id="history">
+            <h3>Previously Searched Cities</h3>
+            <div id="city-history" class="city-history-buttons"></div>
+        </div>
+        <div class="weather-info" id="weather-info">
+            <!-- Weather details will be displayed here -->
+        </div>
+        <div class="forecast" id="forecast">
+            <!-- 5-day forecast will be displayed here in horizontal view -->
+        </div>
+        <button id="back-btn" class="hidden">Back to Home</button> <!-- Back button moved here -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

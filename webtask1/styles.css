@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    background: url('images/full-background.jpg') no-repeat center center fixed;
+    background-size: cover; /* Full length background image */
+}
+
+.weather-app {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 800px; /* Increased width */
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.city-name {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.search-bar {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+#city-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#search-btn, #back-btn {
+    padding: 10px;
+    background-color: #4A90E2;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#back-btn.hidden {
+    display: none;
+}
+
+.history {
+    margin-bottom: 20px;
+}
+
+.city-history-buttons button {
+    background-color: #4A90E2;
+    border: none;
+    color: white;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.weather-info {
+    text-align: center;
+    margin-top: 20px;
+    color: #0f0101; /* Improved contrast for text */
+}
+
+.forecast {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.forecast-day {
+    padding: 10px;
+    border-radius: 8px;
+    flex: 0 0 auto;
+    width: 132px; /* Width for each day */
+    text-align: center;
+    color: #580707;
+    box-shadow: 0 8px 12px rgba(122, 3, 3, 0.2);
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+/* Add or modify styles as needed */
+.city-history-buttons button {
+    background-color: #4A90E2;
+    border: none;
+    color: white;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: red;
+    margin-left: 5px;
+    color: white;
+    border: none;
+    padding: 3px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
